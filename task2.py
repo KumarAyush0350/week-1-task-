@@ -5,7 +5,8 @@ if input_month.isdigit():
     total_interest = anual_saving * 0.008
     total_anual_saving =  anual_saving + total_interest
     
-    print("The total amount of money you will save in a year is:", total_anual_saving)
+    print(f"Total annual saving: {anual_saving}")
+    print(f'Total with interest: {total_anual_saving}')
     
 else:
     print("Invalid amount")
